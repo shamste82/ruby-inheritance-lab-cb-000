@@ -4,7 +4,7 @@ class Student < User
     @knowledge = Array.new
   end
 
-  def learning(s)
+  def learn(s)
     @knowledge << s
   end
 

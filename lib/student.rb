@@ -8,4 +8,8 @@ class Student < User
     @knowledge << s
   end
 
+  def knowledge
+    @knowledge
+  end
+
 end
